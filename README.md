@@ -56,4 +56,8 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 ---
 ## Authors
 - [Akeh Emmanuel Unimke](https://github.com/Akeh9ja)
-- [Mistura Abiola].(https://github.com/Abiola0822)
+- [Mistura Abiola](https://github.com/Abiola0822)
+- [Omotoyosi Ogunye](https://github.com/Celebcoder)
+- [Okeke Gloria Ebubechukwu](https://github.com/Gloriaokeke)
+- [Okeke Chinaza](https://github.com/ChinazaOkeke)
+- [Siphelele Hlongwane](https://github.com/sphehlongwane3)
