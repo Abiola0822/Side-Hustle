@@ -3,10 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/style.css"><!--Linking css-->
+    <script src="https://kit.fontawesome.com/5699cb123f.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Capstone Project 1</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo-ctn"><!--container containing the logo and company name-->
+            <img id="lg-svg" src="images/logo.svg" alt=""><!--logo Image-->
+        </div>
+        <nav>
+            <ul id="nav-ctn"><!--Navigation container-->
+                <li class="nav-li">Features</li>
+                <li class="nav-li">Team</li>
+                <li class="nav-li">Sign In</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bd-section">
+        <img class="bd-img" src="images/bd-img-removebg-preview.png" alt="Body image">
+        <h3 class="wc-text">All files in one secure location, accessible anywhere.</h3>
+        <h4 class="discriptive-text">Fylo stores all your most important files in one secure location Access them wherever you need, share and collaborate with friends family, and co-workers.</h4>
+        <button class="btn-start">Get Started</button> 
+        <div class="major-ctn">    
+            <img class="curvy" src="images/bg-curvy-desktop.svg" alt="">
+        </div>
+        <div class="major-ctn-2">
+            <div class="flx-ctn">
+                <div class="cards">
+                    <img src="images/icon-access-anywhere.svg" alt="access icon">
+                    <div>
+                        <h4>Access your files, anywhere</h4>
+                        <p>The ability to use your smartphone, tablet and computer to access your account means your files follows you everywhere.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="images/icon-security.svg" alt="access icon">
+                    <div>
+                        <h4>Security you can trust</h4>
+                        <p>2-Factor authentication and user controlled encryption are just a couple of the security features we allow to help secure files</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flx-ctn">
+                <div class="cards dn-cards">
+                    <img src="images/icon-collaboration.svg" alt="access icon">
+                    <div>
+                        <h4>Real-time Collaboration</h4>
+                        <p>Securely share files and folders with friends, family and coleagues for live collaborations, No Email Authenticaton required</p>
+                    </div>
+                </div>
+                <div class="cards dn-cards">
+                    <img src="images/icon-access-anywhere.svg" alt="access icon">
+                    <div>
+                        <h4>Access your files, anywhere</h4>
+                        <p>The ability to use your smartphone, tablet and computer to access your account means your files follows you everywhere.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-two">
+                <img class="trd-img" src="images/bd-img-2.PNG" alt="">
+                <div class="flx-sectn-1">
+                    <h4 class="sctn-two">Stay Productive, wherever you are</h4>
+                    <p class="paragraph-one">Never let location be an issue when acessing your files, Fylo has you covered for all your file storage needs</p>
+                    <p class="paragraph-one">Securely share files and folders with friends family and coleagues for live collaborations no email attachments required</p>
+                    <div class="lnk-div">
+                        <a class="lnk-txt" href="http://#">See how Fylo works</a><img class="arrow-icon" src="images/icon-arrow.svg" alt="arrow button">
+                    </div>
+                </div>
+            </div>
+            <img class="quote-img" src="images/download.png" alt="quotation mark">
+            <div class="main-ctn-flx">
+                <div class="quote-ctn">
+                    <div class="ctn-tst">
+                        <p class="tst-p">Fylo has improved our team productivity by an order of magnitude. Since making the switched our team has become a well-oiled Collaboration machine</p>
+                        <div class="tst-div">
+                            <div><img class="test-img" src="images/photo head.jpg" alt="testimonial image"></div>
+                            <div class="prfile-info">
+                                <h5 class="auth-name">Satish Patel</h5>
+                                <h6 class="auth-descript">Founder & CEO Hudoki</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-ctn">
+                    <div class="ctn-tst">
+                        <p class="tst-p">Fylo has improved our team productivity by an order of magnitude. Since making the switched our team has become a well-oiled Collaboration machine</p>
+                        <div class="tst-div">
+                            <div><img class="test-img" src="images/profile1.PNG" alt="testimonial image"></div>
+                            <div class="prfile-info">
+                                <h5 class="auth-name">Bruce McKenzie</h5>
+                                <h6 class="auth-descript">Founder & CEO, Huddle</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-ctn">
+                    <div class="ctn-tst">
+                        <p class="tst-p">Fylo has improved our team productivity by an order of magnitude. Since making the switched our team has become a well-oiled Collaboration machine</p>
+                        <div class="tst-div">
+                            <div><img class="test-img" src="images/profile  2.PNG" alt="testimonial image"></div>
+                            <div class="prfile-info">
+                                <h5 class="auth-name">Iva Boyd</h5>
+                                <h6 class="auth-descript">Founder & CEO, Hudoki</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="email-section">
+        <div class="wrds-head">
+            <h4 class="email-hd">Get early access today</h4>
+            <p class="email-txt">it only takes a minute to sign up our free starter tier is extremely generous. If you have any quetions, Our support team would be happy to help you.</p>
+        </div>
+        <form name="form" action="#" id="form" >
+            <div class="input-eml-sect">
+                <input autocomplete="off" id="email" type="text" name="email"  placeholder="email@example.com" onkeydown="validation()">
+                <button type="submit" class="email-btn">Get started for free</button>
+            </div>
+            <span class="text">Please enter a valid email address</span>
+        </form>   
+    </div>
+    <footer>
+        <div class="rnsp-lc">
+        <img src="images/logo.svg" alt="company logo">
+            <div class="location-ctn">
+                <img class="location-img" src="images/icon-location.svg" alt="location icon">
+                <p class="text-lrm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis neque nulla iusto ducimus adipisci tempora.</p>
+            </div>
+        </div>
+        <div class="my-li rnsp-lc">
+            <div class="gnrl-editing"">
+                <img class="location-img"src="images/icon-phone.svg" alt="telephone icon">
+                <p class="text-lrm">+1-543-123-4567</p>
+            </div>
+            <div class="gnrl-editing">
+                <img class="location-img" src="images/icon-email.svg" alt="email icon">
+                <p class="text-lrm">example@Fylo.com</p>
+            </div>
+        </div>
+        <div class="my-li flx-grp">
+            <ul>
+                <li>About us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="my-li flx-grp" id="mrgn-li">
+            <ul>
+                <li>Contact us</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div class="icon-ctn my-li " id="mrgn-ic">
+            <div class="icon-box">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-box">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon-box">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
